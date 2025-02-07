@@ -1,13 +1,13 @@
 function firstChar(text) {
   // your code here
 	if(!text){
-		return " ";
+		return "' '";
 	}
 	let num = text[0];
-	return num;
+	return `'${num}'`;
 }
 
 // Do not change the code below
-//Uncomment the following line to show e prompt popup
+//Uncomment the following line to show e pompt popup
 const text = prompt("Enter text:");
 alert(firstChar(text));
